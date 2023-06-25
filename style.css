@@ -1,0 +1,61 @@
+body {
+    background-color: black;
+}
+/* header{
+    padding-top: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header nav {
+    margin: 0;
+    width: 32em;
+    height: 7em;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color:color-mix(in hsl shorter hue, white 10%, aqua 50%);
+    border-radius: 4px;
+    gap: 30px;
+}
+
+.menuItem{
+    all: unset;
+    flex-grow: 1;
+    z-index: 100;
+    display: flex;
+    cursor: pointer;
+    position: relative;
+    border-radius: 50%;
+    align-items: center;
+    will-change: transform;
+    justify-content: center;
+    padding: 0.55em 0 0.85em;
+    transition: transform;
+    
+} */
+
+
+section {
+    display: flex;
+    width: 100%;
+    height: 20%;
+    padding-top: 3%;
+}
+
+section img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .8 ease;
+    border-radius: 4px;
+}
+
+section img:hover {
+    cursor: grab;
+    width: 150px;
+    opacity: 1;
+    filter: contrast(120%);
+}
